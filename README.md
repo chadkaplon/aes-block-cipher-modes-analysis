@@ -11,7 +11,6 @@ This project analyzes AES block cipher modes through practical OpenSSL experimen
 Experiments were performed in a Linux virtual machine using OpenSSL and Jupyter Notebook.
 
 ## Experiments
-
 ### ECB Image encryption
 AES in ECB mode revealed repeating image patterns.
 
