@@ -12,10 +12,9 @@ Experiments were performed in a Linux virtual machine using OpenSSL and Jupyter 
 
 ## Experiments
 ### ECB Image encryption
-AES in ECB mode revealed repeating image patterns.
-
+The BMP header is preserved to allow rendering of encrypted pixel data. ECB mode preserves pixel-pattern structure, making the original image partially visible.
 ### CBC Image encryption
-CBC used an IV and block chaining to hide visible structure.
+CBC used an IV and block chaining to hide visible structure removing structural correlation, producing noise-like output.
 
 ### IV behavior analysis
 Initialization Vectors (IVs) were analyzed to demonstrate their role in preventing identical plaintext from producing identical ciphertext across multiple encryptions. When a random IV is used, the same input can generate different ciphertext outputs each time. This improves confidentiality and prevents pattern reuse.
