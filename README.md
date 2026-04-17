@@ -11,7 +11,15 @@ This project analyzes AES block cipher modes through practical OpenSSL experimen
 Experiments were performed in a Linux virtual machine using OpenSSL and Jupyter Notebook.
 
 ## Experiments
-- ECB Image encryption
-- CBC Image encryption
-- IV behavior analysis
-- Additional mode comparisons
+
+### ECB Image encryption
+AES in ECB mode revealed repeating image patterns.
+
+### CBC Image encryption
+CBC used an IV and block chaining to hide visible structure.
+
+### IV behavior analysis
+Initialization Vectors (IVs) were analyzed to demonstrate their role in preventing identical plaintext from producing identical ciphertext across multiple encryptions. When a random IV is used, the same input can generate different ciphertext outputs each time. This improves confidentiality and prevents pattern reuse.
+
+### Additional mode comparisons
+
