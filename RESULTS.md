@@ -4,7 +4,7 @@
 
 ## ECB vs CBC Comparison
 
-![ECB vs CBC](images/ecb-vs-cbc.jpg)
+![ECB vs CBC](images/ECB_vs_CBC.jpg)
 
 ECB encryption preserves visible structure from the original image, making patterns detectable in the ciphertext output.
 
