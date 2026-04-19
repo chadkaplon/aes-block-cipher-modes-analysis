@@ -1,7 +1,8 @@
 # Results – AES Block Cipher Mode Analysis
 
 ## Environment Setup
-![Slice_and_VM_setup_with_SSL](images/slice_and_node_setup.jpg)
+
+![Slice and Node setup with SSL](images/slice_and_node_setup.jpg)
 
 ## ECB vs CBC Comparison
 
