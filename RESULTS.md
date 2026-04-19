@@ -1,6 +1,7 @@
 # Results – AES Block Cipher Mode Analysis
 
----
+## Environment Setup
+![Verification of SSL key setup for Node shown with fabric_conig folder] (images/Slice_and_node_setup.jpg)
 
 ## ECB vs CBC Comparison
 
