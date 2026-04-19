@@ -16,8 +16,14 @@ The BMP header is preserved to allow rendering of encrypted pixel data. ECB mode
 ### CBC Image encryption
 CBC used an IV and block chaining to hide visible structure removing structural correlation, producing noise-like output.
 
-### IV behavior analysis
+## IV behavior analysis
 Initialization Vectors (IVs) were analyzed to demonstrate their role in preventing identical plaintext from producing identical ciphertext across multiple encryptions. When a random IV is used, the same input can generate different ciphertext outputs each time. This improves confidentiality and prevents pattern reuse.
 
-### Additional mode comparisons
+## Padding and Stream Behavior
+
+### Padding and Stream Behavior
+
+- ECB and CBC require padding when plaintext is not a multiple of block size.
+- CFB and OFB do not require padding because they behave like stream modes.
+- A full block of padding is added when plaintext exactly matches block size.
 
