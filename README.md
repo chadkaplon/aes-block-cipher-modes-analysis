@@ -1,7 +1,7 @@
 # AES Block Cipher Modes Analysis
 
 <p align="center">
-  <img src="Images/Banner.jpg" width="1100">
+  <img src="images/Banner.jpg" width="1100">
 </p>
 
 ## Overview
@@ -21,9 +21,7 @@ Initialization Vectors (IVs) were analyzed to demonstrate their role in preventi
 
 ## Padding and Stream Behavior
 
-### Padding and Stream Behavior
-
-- ECB and CBC require padding when plaintext is not a multiple of block size.
-- CFB and OFB do not require padding because they behave like stream modes.
-- A full block of padding is added when plaintext exactly matches block size.
+### ECB and CBC require padding when plaintext is not a multiple of block size.
+### CFB and OFB do not require padding because they behave like stream modes.
+### A full block of padding is added when plaintext exactly matches block size.
 
