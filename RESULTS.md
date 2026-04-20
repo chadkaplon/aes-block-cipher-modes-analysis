@@ -8,19 +8,15 @@
 
 ![ECB vs CBC](images/ECB_vs_CBC.jpg)
 
-ECB encryption preserves visible structure from the original image, making patterns detectable in the ciphertext output.
+- ECB encryption preserves visible structure from the original image, making patterns detectable in the ciphertext output.
+- And this is the exact excrypted image...but in order to see make the encrypted image visible had to replace encrypted header with standard image header info but you can still see the CBC hides the image while ECB leaks the pattern.
+-  CBC significantly reduces pattern visibility by using an initialization vector (IV) and chaining blocks together.
 
-CBC significantly reduces pattern visibility by using an initialization vector (IV) and chaining blocks together.
+## IV Behavior with encryption Mode Behavior
 
----
-
-## CFB vs OFB Behavior
-
-![CFB vs OFB](images/cfb-ofb.jpg)
+![AES IV Behavior on Ciphertext](images/AES_IV_Impact_On_Ciphertext_Output.jpg)
 
 CFB and OFB behave like stream modes, producing ciphertext that does not reveal block-level structure and does not require padding.
-
----
 
 ## Padding Behavior (PKCS#7)
 
