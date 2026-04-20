@@ -14,7 +14,7 @@
 
 ## IV Behavior with encryption Mode Behavior
 
-![AES IV Behavior on Ciphertext](images/AES.jpg)
+![AES IV Behavior on Ciphertext](images/AES_IV_Impact_On_Ciphertext_Output.jpg)
 
 CFB and OFB behave like stream modes, producing ciphertext that does not reveal block-level structure and does not require padding.
 
