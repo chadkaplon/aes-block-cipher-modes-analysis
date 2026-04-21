@@ -3,7 +3,7 @@
 ## Environment Setup
 
 Code needed to execute before setting up the Terminal
-[Enviornment set up images of Notebook code](images/environment.jpg)
+[Enviornment Notebook code](images/environment.jpg)
 
 Setup code for actual terminal ater Notebook execute
-[Environment set up imagesd of Terminal Setup after Notebook Preset](images/environment_setup_2.jpg)
+[Environment Terminal Setup after Notebook](images/environment_setup_2.jpg)
