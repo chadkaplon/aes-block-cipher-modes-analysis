@@ -20,7 +20,7 @@ CFB and OFB behave like stream modes, producing ciphertext that does not reveal 
 
 ## Padding Behavior (PKCS#7)
 
-![Padding Results](images/padding.png)
+![Padding Results](images/padding.jpg)
 
 Short plaintexts require padding to reach the AES block size of 16 bytes. When input already matches the block size, a full padding block is added.
 
