@@ -24,7 +24,7 @@ CFB and OFB behave like stream modes, producing ciphertext that does not reveal 
 
 Short plaintexts require padding to reach the AES block size of 16 bytes. When input already matches the block size, a full padding block is added.
 
----
+Although ciphertext is displayed in hexadecimal format, the underlying bytes are not interpretable as meaningful text. The ASCII representation in tools such as xxd attempts to map bytes to printable characters, but most ciphertext bytes fall outside the ASCII printable range due to the high-entropy nature of AES encryption. This results in largely non-printable output, which is expected for encrypted data.
 
 ## Key Observations
 
