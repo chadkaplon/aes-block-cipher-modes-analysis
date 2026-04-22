@@ -12,4 +12,7 @@ Setup code for actual terminal ater Notebook execute
 
 ![Code behind entire ECB and CBC analysis](images/EBC_vs_CBC_Code_Snippet.jpg)
 
+## IV Behavior with encryption Mode Behavior
+
+![The code behind ciphertext blocks](images/IV_Experiment_Codes.jpg)
 
