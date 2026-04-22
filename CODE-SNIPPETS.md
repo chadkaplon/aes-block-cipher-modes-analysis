@@ -10,6 +10,6 @@ Setup code for actual terminal ater Notebook execute
 
 ## ECB Vs CBC Image Comparison Code 
 
-![Code behind entire ECB and CBC analysis](EBC_vs_CBC_Code_Snippet.jpg)
+![Code behind entire ECB and CBC analysis](images/EBC_vs_CBC_Code_Snippet.jpg)
 
 
