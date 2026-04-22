@@ -14,5 +14,6 @@ Setup code for actual terminal ater Notebook execute
 
 ## IV Behavior with encryption Mode Behavior
 
+Even though the code shows the key and IV, it's demo purposes & enterprise would not be show
 ![The code behind ciphertext blocks](images/IV_Experiment_Codes.jpg)
 
