@@ -8,3 +8,6 @@ Code needed to execute before setting up the Terminal
 Setup code for actual terminal ater Notebook execute
 ![Environment Terminal Setup after Notebook](images/environment_setup_2.jpg)
 
+## ECB Vs CBC Image 
+
+[Code behind entire ECB and CBC analysis](
