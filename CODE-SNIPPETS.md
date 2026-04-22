@@ -17,3 +17,7 @@ Setup code for actual terminal ater Notebook execute
 Even though the code shows the key and IV, it's demo purposes & enterprise would not be show
 ![The code behind ciphertext blocks](images/IV_Experiment_Codes.jpg)
 
+## Padding Behavior
+
+Again normally the private key and IV would not be displayed if not in a demonstration.
+![Padding Code Encrypting & Decrypting](images/padding_code_display.jpg)
